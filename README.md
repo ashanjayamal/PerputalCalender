@@ -1,4 +1,4 @@
-# Yearly Calendar Generator
+# Calendar Generator
 
 This project generates a yearly calendar based on a given year. It calculates the starting day of the week for each month and displays the calendar in a structured format. Additionally, it explains the calculation process, including how leap years affect the calendar.
 
