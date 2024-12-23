@@ -67,7 +67,7 @@
 <h1>Yearly Calendar Generator</h1>
 <div>
     <label for="year">Year: </label>
-    <input type="number" id="year" placeholder="Enter Year">
+    <input type="number" id="year" placeholder="Enter Year" min="1600">
     <button onclick="generateYearlyCalendar()">Generate Year Calendar</button>
 </div>
 
@@ -121,6 +121,12 @@
 
         if (!year) {
             alert('Please enter a valid year.');
+            return;
+        }
+
+        
+        if (year>1600|| year<9999) {
+            alert('This Calender works only years between 1600 and 9999');
             return;
         }
 
