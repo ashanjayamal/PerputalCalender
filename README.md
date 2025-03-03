@@ -23,7 +23,7 @@ The calendar generator uses the following approach:
 
 3. **Calendar Display**: The calendar for each month is displayed in a table format, with each day of the week marked and the dates filled in accordingly.
 
-### Understanding Odd Days and Leap Years  
+## Understanding Odd Days and Leap Years  
 
 The concept of **odd days** helps determine the day of the week for a given date. Odd days are calculated as the number of days remaining after complete weeks are subtracted. This remainder is critical in calendar computations.  
 
